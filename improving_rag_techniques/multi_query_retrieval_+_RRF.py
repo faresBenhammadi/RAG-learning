@@ -203,10 +203,3 @@ print("   • Documents appearing in multiple queries get boosted scores")
 print("   • Higher positions contribute more to the final score") 
 print("   • Balanced fusion using k=60 for gentle position penalties")
 
-# ──────────────────────────────────────────────────────────────────
-# Optional: Quick Usage Examples
-# ──────────────────────────────────────────────────────────────────
-
-print("\n" + "="*60)
-print("USAGE EXAMPLES")
-print("="*60)
