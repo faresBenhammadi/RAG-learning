@@ -48,9 +48,4 @@ Starting from a mix of plain text and PDF sources (including tables and images),
 - **PDF/document parsing:** `unstructured` (hi-res strategy, table + image extraction)
 - **LLMs:** Groq-hosted models — `openai/gpt-oss-120b` for query expansion, `qwen/qwen3.6-27b` (vision-capable) for table/image summarization and final answer generation
 
-## Next steps / ideas to explore
 
-- Retrieval evaluation (precision/recall, relevance labeling per query) to measure the actual impact of hybrid search, multi-query, and reranking rather than eyeballing results.
-- Metadata filtering (e.g., by source or content type) as a complement to hybrid search.
-- Swapping in different embedding models / rerankers to compare cost vs. quality tradeoffs.
-- Parameterizing `original_query` as real user input rather than a hardcoded string, so the notebook can run interactively or as a script.
